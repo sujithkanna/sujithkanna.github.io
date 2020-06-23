@@ -34770,10 +34770,10 @@ be:function(){var s=!U.h8(this.c),r=this.b1$
 if(r!=null)for(r=P.el(r,r.r);r.n();)r.d.sfD(0,s)
 this.dL()}}
 N.uu.prototype={
-al:function(a){var s,r=null,q=F.te(a,!1).a.a,p=q>800?3:2
+al:function(a){var s,r=null,q=F.te(a,!1).a.a,p=q>800,o=p?50:20,n=p?3:2
 $.Ph()
 s=q>1100?100:0
-return T.PT(M.hz(r,new B.rA(new B.I2(p,50,50,0.8),new G.HY(new N.Gp(),5,!0,!0,!0),new V.b3(50,50,50,50),C.o,!1,r,!0,C.p2,!1,r,5,C.hg,C.uw,r),r,r,r,r,new V.b3(s,0,s,0),r,r))}}
+return T.PT(M.hz(r,new B.rA(new B.I2(n,o,o,0.8),new G.HY(new N.Gp(),5,!0,!0,!0),new V.b3(o,o,o,o),C.o,!1,r,!0,C.p2,!1,r,5,C.hg,C.uw,r),r,r,r,r,new V.b3(s,0,s,0),r,r))}}
 N.Gp.prototype={
 $2:function(a,b){return new L.n4(b,$.Ph()[b],null)},
 $C:"$2",
