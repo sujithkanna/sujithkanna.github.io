@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "index.html": "4124c774de936fc1368847de4d3988dc",
-"/": "4124c774de936fc1368847de4d3988dc",
-"main.dart.js": "0ff8e6480fb0538b8cd2a259510922c5",
+  "index.html": "8463706619aa055b54f17e601bf991de",
+"/": "8463706619aa055b54f17e601bf991de",
+"main.dart.js": "d492b9da1b39b638221d9842b90f51ba",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
@@ -23,7 +23,8 @@ const RESOURCES = {
 "assets/fonts/NimbusSanL-Reg.otf": "ef36b2c9fdd7db050896ae2815b9a374",
 "assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
 "assets/fonts/archia-regular-webfont.ttf": "44b223ad896c78b16682dcf37a6bb6af",
-"assets/fonts/NimbusSanL-Bold.otf": "355985bcf1253ec96f8cfa2ea733d58d"
+"assets/fonts/NimbusSanL-Bold.otf": "355985bcf1253ec96f8cfa2ea733d58d",
+"bitmoji.png": "6861a87eb4da3ce43f48005587c46482"
 };
 
 // The application shell files that are downloaded before a service worker can
