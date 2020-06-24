@@ -84,8 +84,15 @@
   </style>
 
 </head>
-<body id="flutter-container">
-  <div class="loader">
+<body id="flutter-container" onpageshow="onPageLoadCompleted()">
+
+  <script>
+    function onPageLoadCompleted() {
+      document.getElementByClass("loader").remove();
+    }
+  </script>
+
+  <div class="loader" id="loader">
     <div class="loader__strip--green"></div>
     <div class="loader__strip--orange"></div>
     <div class="loader__strip--blue"></div>
